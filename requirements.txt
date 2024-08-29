@@ -1,5 +1,11 @@
 groq
-langchain
 networkx
-langchain_community
-langchain_core
+langchain
+json-repair
+langchain-community
+langchain-core
+langchain-experimental
+langchain-together
+langchain-groq
+python-dotenv
+neo4j
