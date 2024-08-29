@@ -13,3 +13,7 @@ GraphRAG uses knowledge graphs to provide substantial improvements in question-a
 
 1. Baseline RAG struggles to connect the dots. This happens when answering a question requires traversing disparate pieces of information through their shared attributes in order to provide new synthesized insights.
 2. Baseline RAG performs poorly when being asked to holistically understand summarized semantic concepts over large data collections or even singular large documents.
+
+The effective comprehension difference from a baseline/vector RAG to a graph RAG lies in the fact that vector RAG attempts to create a similarity between different objects though cosine similarity or distance calculation between two objects. For a language base what it does is that it observes the words based on a vector map and hence attempts to sequentially make sentences, paragraphs to vectors and then again placing them in a vector array.
+
+However for the case of a knowledge graph this distance and relation between the objects is already present through the virtue of a Knowledge Graph. Hence a crucial step is eliminated and the search becomes not only much more efficient but also more accurate.
